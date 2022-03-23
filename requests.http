@@ -7,11 +7,15 @@ POST http://localhost:3000/users.json
 Content-Type: application/json
 
 {
-  "name": "Becky Cistulli",
-  "email": "Becky@example.com",
+  "name": "Patrice Cistulli",
+  "email": "Patrice@example.com",
   "password": "password",
   "password_confirmation": "password"
 }
+
+### Users show
+GET http://localhost:3000/users/2.json
+
 
 ### Sessions create (login)
 POST http://localhost:3000/sessions.json
