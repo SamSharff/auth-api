@@ -1,4 +1,6 @@
-@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHAiOjE2NDgxMjc3NDN9.63gqAmLVjGzGYF2Jc-4z-bFCYKT7OVgc9elYkYYQcbo
+# @jwt_B = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHAiOjE2NDgxMjc3NDN9.63gqAmLVjGzGYF2Jc-4z-bFCYKT7OVgc9elYkYYQcbo
+
+# @jwt_C = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2NDgxMzM1MzN9.domwF-ckNfYQbCdQJojt03dKWukADw812HjZLvCVyHA
 
 ### Users create (signup)
 POST http://localhost:3000/users.json
@@ -16,6 +18,6 @@ POST http://localhost:3000/sessions.json
 Content-Type: application/json
 
 {
-  "email": "Becky@example.com",
+  "email": "Carson@example.com",
   "password": "password"
 }
